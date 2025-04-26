@@ -1,0 +1,163 @@
+html {
+    font-family: poppins;
+
+}
+.nav-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.nav-link a {
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+}
+.nav-btn{
+    background-color: transparent;
+    border: solid 2px;
+    cursor:pointer;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: solid 1px black;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+}
+#hero .tagline {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 125%;
+    
+}
+#hero .tagline span{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 100px;
+    color: rgb(255, 252, 252);
+    background-color: orangered;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#hero .description {
+    font-size: 16px;
+}
+
+#hero .description span {
+    font-weight: 600;
+    color: orangered;
+}
+
+.btn-orange {
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-white {
+    background-color: transparent;
+    color: black;
+    border: black;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#hero .hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 60%;
+    padding: 0 32px;
+    
+}
+
+#hero .hero-right {
+    right: 0;
+    display: flex;
+}
+
+#hero .hero-left-bottom {
+    background-color: rgba(0, 0, 0, 0.974); 
+    color: white;
+    padding: 32px 32px;
+    display: flex;   
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 30px;
+}
+
+.project .project-tagline {
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.project .project-tagline span {
+    color: white;
+}
+
+.btn-yellow {
+    background-color: orangered;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#hero .nav-project {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;    
+}
+
+#hero .nav-project a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero .hero-left .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.list-project {
+color: white;
+display: flex;
+gap: 5px;
+padding: 3px;
+
+}
+
